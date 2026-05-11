@@ -1,0 +1,8 @@
+services:
+  app:
+    build: .
+    container_name: sakuno-test
+    volumes:
+      - .:/workspace
+    stdin_open: true
+    tty: true
